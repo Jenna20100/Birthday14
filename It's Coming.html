@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcoming: JEYNA</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('C:/Users/jeyna/OneDrive/Desktop/bowy.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #000;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            background-color: #000;
+            color: #fce4ec;
+            width: 100%;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+        }
+        .taskbar {
+            width: 100%;
+            background-color: #000;
+            color: #fce4ec;
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        .taskbar img {
+            width: 40px;
+            height: auto;
+            margin-right: 10px;
+        }
+        .taskbar h1 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        .content {
+            max-width: 800px;
+            width: 100%;
+            padding: 100px 20px 20px;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 15px;
+            margin-top: 60px;
+        }
+        .content h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 1.2em;
+            background-color: #000;
+            color: #fce4ec;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: #333;
+        }
+        .footer {
+            background-color: #000;
+            color: #fce4ec;
+            width: 100%;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 1em;
+            line-height: 1.6em;
+        }
+        .chatbox {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #000;
+            color: #fce4ec;
+            padding: 10px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            font-size: 1em;
+            max-width: 200px;
+            text-align: center;
+        }
+        .chatbox::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-width: 10px;
+            border-style: solid;
+            border-color: #000 transparent transparent transparent;
+        }
+        .chatbox a {
+            color: #fce4ec;
+            text-decoration: none;
+        }
+        .chatbox a:hover {
+            text-decoration: underline;
+        }
+        .thought-bubble {
+            position: relative;
+            display: inline-block;
+            background-color: red;
+            color: yellow;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 0.9em;
+            margin-left: 10px;
+        }
+        .thought-bubble::after, .thought-bubble::before {
+            content: '';
+            position: absolute;
+            border-style: solid;
+        }
+        .thought-bubble::after {
+            border-width: 8px;
+            border-color: red transparent transparent transparent;
+            bottom: -16px;
+            left: 20%;
+        }
+        .thought-bubble::before {
+            border-width: 4px;
+            border-color: red transparent transparent transparent;
+            bottom: -10px;
+            left: 25%;
+        }
+    </style>
+</head>
+<body>
+    <div class="taskbar">
+        <img src="C:/Users/jeyna/Downloads/bow logo.png" alt="Bow">
+        <h1>Jeyna</h1>
+    </div>
+    <header>
+         Upcoming: JEYNA
+    </header>
+    <div class="content">
+        <h1>Movie Releases</h1>
+        <ul>
+            <li><a href="error.html" class="button">Season 1: 2010</a></li>
+            <li><a href="error.html" class="button">Season 2: 2011</a></li>
+            <li><a href="error.html" class="button">Season 3: 2012</a></li>
+            <li><a href="error.html" class="button">Season 4: 2013</a></li>
+            <li><a href="error.html" class="button">Season 5: 2014</a></li>
+            <li><a href="error.html" class="button">Season 6: 2015</a></li>
+            <li><a href="error.html" class="button">Season 7: 2016</a></li>
+            <li><a href="error.html" class="button">Season 8: 2017</a></li>
+            <li><a href="error.html" class="button">Season 9: 2018</a></li>
+            <li><a href="error.html" class="button">Season 10: 2019</a></li>
+            <li><a href="error.html" class="button">Season 11: 2020</a></li>
+            <li><a href="error.html" class="button">Season 12: 2021</a></li>
+            <li><a href="error.html" class="button">Season 13: 2022</a></li>
+            <li>
+                <a href="https://example.com/season14" class="button">
+                    Season 14: 2024
+                    <span class="thought-bubble">NEW!!!</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="footer">
+        <p>RSVP: +91 9830179994</p>
+        <p>Rachana Surana</p>
+        <p>Location: 157, Jodhpur Park, Kolkata- 700068</p>
+    </div>
+    <div class="chatbox">
+	NEED HELP??<br>
+        Chat with the:
+        <br>
+        <a href="tel:+919230975800"><u>Birthday Girl!!!</u></a>
+    </div>
+</body>
+</html>
